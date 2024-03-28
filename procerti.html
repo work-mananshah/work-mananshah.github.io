@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MANAN SHAH - Certifications</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .certificate-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .certificate-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .certificate-title {
+            color: #f56a6a;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .certificate-body {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <!-- Header -->
+                <header id="header">
+                    <a href="index.html" class="logo"><strong>Manan Shah</strong> - Portfolio</a>
+                </header>
+
+                <!-- Certifications Grid -->
+                <div class="certifications-grid">
+                    <!-- Dynamic generation of certificate cards -->
+                    <!-- Example of one certificate card -->
+                    <div class="certificate-card">
+                        <div class="certificate-title">Bechelor's of Information Technology</div>
+                        <div class="certificate-body">SVBIT, Gandhinagar, India.</div>
+                    </div>
+                    <!-- Repeat the above block for each certificate -->
+                    <div class="certificate-card">
+                        <div class="certificate-title">Mobile Solutions Development (2 Year course)</div>
+                        <div class="certificate-body">Conestoga Waterloo, Ontario, Canada.</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Computer Science</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Full-Stack Engineer</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Front-End Engineer</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Back-End Engineer</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Data Scientist: Machine Learning</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                    <div class="certificate-card">
+                        <div class="certificate-title">Data Scientist: Analytics</div>
+                        <div class="certificate-body">Professional certificate - Codecademy</div>
+                    </div>
+                  
+                  
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="inner">
+                <!-- Search -->
+                <section id="search" class="alt">
+                    <form method="post" action="#">
+                        <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                </section>
+                <!-- Menu -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Menu</h2>
+                    </header>
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        
+                        <span class="opener dropdown-toggle">Certifications</span>
+<ul>
+    <li><a href="skillcerti.html">Skill Certifications</a></li>
+    <li><a href="procerti.html">Professional Certifications</a></li>
+</ul>
+
+                        <li><a href="availibity.html">Availability Information</a></li>
+                    </ul>
+                </nav>
+                <!-- Contact Section -->
+                <section>
+                    <header class="major">
+                        <h2>Get in touch</h2>
+                    </header>
+                    <p>Think I might be a good fit for your company? Let's talk!</p>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope"><a href="#">work.mananshah@gmail.com</a></li>
+                        <li class="icon solid fa-home">Edmonton, Alberta.<br /></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var dropdownToggle = document.querySelector('.dropdown-toggle');
+
+        if (dropdownToggle) {
+            dropdownToggle.addEventListener('click', function () {
+                var dropdownMenu = this.nextElementSibling;
+                if (dropdownMenu.style.display === 'block') {
+                    dropdownMenu.style.display = 'none';
+                } else {
+                    dropdownMenu.style.display = 'block';
+                }
+            });
+        }
+    });
+</script>

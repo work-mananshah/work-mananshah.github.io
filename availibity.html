@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MANAN SHAH - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            margin-right: 20px;
+            border: 3px solid #eee;
+        }
+
+        .profile-card .info {
+            flex: 1;
+        }
+
+        .profile-card .info h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            color: #f56a6a;
+        }
+
+        .profile-card .info p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+		.big-paragraph {
+        margin-top: 20px;
+        margin-bottom: 30px; /* Increased bottom margin */
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .actions {
+        margin-bottom: 20px; /* Ensure there is some space between the button and the following section */
+    }
+
+    #live-apps {
+        margin-top: -75px; /* Reduced top margin */
+    }
+    </style>
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <header id="header">
+                    <a href="index.html" class="logo"><strong>Manan Shah</strong> - Portfolio</a>
+                  
+                </header>
+
+                   <!-- Availability Section 2 -->
+                   <section class="card">
+                    <h2>Desired Scope</h2>
+                    <p>While my passion lies in iOS/Swift development, I'm versatile and proficient in a diverse range of technologies such as Android, Flutter, React, Full-Stack, Data Science, Machine Learning/AI development, AR-VR Development, and Scripting. I'm open to exploring exciting opportunities in technician roles as well. If you have compelling intern opportunities, I'd love to hear about them. Feel free to reach out at your convenience. Thank you!</p>
+                </section>
+
+                <!-- Availability Section 1 -->
+                <section class="card">
+                    <h2>Current Availability</h2>
+                    <ul>
+                        <li>Availability: Available for full-time work and open to discussing new projects.</li>
+                        <li>Schedule: Available 24/7, all days of the week.</li>
+                        <li>Environment: In-person, Hybrid, Remote. </li>
+                        <li>Work Permit: On an Open Work Permit.</li>
+                        <li>Location: Edmonton, Alberta. (Willing to relocate anywhere in Alberta.)</li>
+                    </ul>
+                </section>
+                
+             
+            </div>
+        </div>
+
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="inner">
+                <!-- Search -->
+                <section id="search" class="alt">
+                    <form method="post" action="#">
+                        <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                </section>
+                <!-- Menu -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Menu</h2>
+                    </header>
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        
+                        <span class="opener dropdown-toggle">Certifications</span>
+<ul>
+    <li><a href="skillcerti.html">Skill Certifications</a></li>
+    <li><a href="procerti.html">Professional Certifications</a></li>
+</ul>
+
+                        <li><a href="availibity.html">Availability Information</a></li>
+                    </ul>
+                </nav>
+                <!-- Contact Section -->
+                <section>
+                    <header class="major">
+                        <h2>Get in touch</h2>
+                    </header>
+                    <p>Think I might be a good fit for your company? Let's talk!</p>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope"><a href="#">work.mananshah@gmail.com</a></li>
+                        <li class="icon solid fa-home">Edmonton, Alberta.<br /></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var dropdownToggle = document.querySelector('.dropdown-toggle');
+
+        if (dropdownToggle) {
+            dropdownToggle.addEventListener('click', function () {
+                var dropdownMenu = this.nextElementSibling;
+                if (dropdownMenu.style.display === 'block') {
+                    dropdownMenu.style.display = 'none';
+                } else {
+                    dropdownMenu.style.display = 'block';
+                }
+            });
+        }
+    });
+</script>

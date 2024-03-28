@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MANAN SHAH - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            margin-right: 20px;
+            border: 3px solid #eee;
+        }
+
+        .profile-card .info {
+            flex: 1;
+        }
+
+        .profile-card .info h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            color: #f56a6a;
+        }
+
+        .profile-card .info p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+		.big-paragraph {
+        margin-top: 20px;
+        margin-bottom: 30px; /* Increased bottom margin */
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .actions {
+        margin-bottom: 20px; /* Ensure there is some space between the button and the following section */
+    }
+
+    #live-apps {
+        margin-top: -50px; /* Reduced top margin */
+    }
+    </style>
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <header id="header">
+                    <a href="index.html" class="logo"><strong>Manan Shah</strong> - Portfolio</a>
+                    <ul class="icons">
+                        <li><a href="https://github.com/work-mananshah/Python" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </header>
+
+                <div class="profile-card">
+                    <img src="images/Profile Pic.jpeg" alt="Profile Picture" />
+                    <div class="info">
+                        <h2>Manan Shah</h2>
+                        <p>Freelance iOS Developer</p>
+                    </div>
+                </div>
+
+                <p class="big-paragraph">
+                    I am a skilled developer specializing in Mobile App Development, with a recent completion of a two-year course (Mobile Solutions Development) from Conestoga College - Waterloo, Ontario. My bachelor's degree in Information Technology complements my expertise, allowing me to create and maintain apps and websites across different platforms. I am proficient in languages like C#, Python, Swift, as well as scripting languages such as JavaScript, TypeScript, and NodeJS. My extensive training includes various certifications, demonstrating both fundamental understanding and advanced proficiency in development techniques.
+                </p>
+				<ul class="actions">
+					<li><a href="https://www.linkedin.com/in/manan-shah-080125272/" class="button big">Learn more on my Linkedin</a></li>
+				</ul>
+                <!-- Live iOS Apps Section -->
+                <section id="live-apps">
+                    <header class="major">
+                        <h2>My IOS Apps</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <a href="https://apps.apple.com/ca/app/soontodo-future-timers/id6476050348" class="image"><img src="images/logo1.png" alt="" /></a>
+                            <h3>SoonToDo: Future timers</h3>
+                            <p>SoonToDo simplifies perishable goods management with instant date calculation, versatility for various products, and efficiency for professional or home use, reducing waste and maximizing freshness effortlessly.</p>
+                        </article>
+                        <article>
+                            <a href="https://apps.apple.com/ca/app/whatsdate/id6476070247" class="image"><img src="images/logo2.png" alt="" /></a>
+                            <h3>WhatsDate</h3>
+                            <p>WhatsDate empowers seamless time management with precise timers for tasks, custom alerts, effortless organization, real-time updates, and an intuitive design for enhanced productivity.</p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="inner">
+                <!-- Search -->
+                <section id="search" class="alt">
+                    <form method="post" action="#">
+                        <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                </section>
+                <!-- Menu -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Menu</h2>
+                    </header>
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        
+                        <span class="opener dropdown-toggle">Certifications</span>
+<ul>
+    <li><a href="skillcerti.html">Skill Certifications</a></li>
+    <li><a href="procerti.html">Professional Certifications</a></li>
+</ul>
+
+                        <li><a href="availibity.html">Availability Information</a></li>
+                    </ul>
+                </nav>
+                <!-- Contact Section -->
+                <section>
+                    <header class="major">
+                        <h2>Get in touch</h2>
+                    </header>
+                    <p>Think I might be a good fit for your company? Let's talk!</p>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope"><a href="#">work.mananshah@gmail.com</a></li>
+                        <li class="icon solid fa-home">Edmonton, Alberta.<br /></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var dropdownToggle = document.querySelector('.dropdown-toggle');
+
+        if (dropdownToggle) {
+            dropdownToggle.addEventListener('click', function () {
+                var dropdownMenu = this.nextElementSibling;
+                if (dropdownMenu.style.display === 'block') {
+                    dropdownMenu.style.display = 'none';
+                } else {
+                    dropdownMenu.style.display = 'block';
+                }
+            });
+        }
+    });
+</script>
